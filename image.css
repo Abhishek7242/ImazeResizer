@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar img{
+width: 50px;
+margin: 0 9px;
+border-radius: 100px;
+}
+#navbar{
+height: 60px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    /* padding: 0 20px; */
+background: linear-gradient(180deg,blue,rgb(135, 149, 255));
+}
+
+#preview img{
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#download-link{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  border: 2px solid black;
+text-decoration: none;
+  width: 150px;
+  height: 35px;
+}
+
+#choose{
+  border-radius: 5px;
+    width: 150px ;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid;
+    display: flex;
+    background-color: rgb(0, 255, 0);
+}
+#download{
+    font: 1em sans-serif;
+    color: rgb(0, 0, 0);
+    width: 120px ;
+    height: 30px;
+    background-color: rgb(0, 255, 204);
+}
+body {
+  min-height: 100vh;
+    font-family: Arial, sans-serif;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+flex-direction: column;
+  }
+  #input-image {
+    display: none;
+  }
+  #preview {
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 10px;
+  }
+  #result {
+    display: none;
+  }
+  #result img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  input[type="number"] {
+    padding: 5px;
+    width: 100px;
+  }
+  input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
